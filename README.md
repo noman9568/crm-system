@@ -72,3 +72,25 @@ crm-project/
 cd backend
 npm install
 npm run dev
+
+### Frontend Setup
+```bash
+cd frontend
+npm install
+npm start
+
+---
+
+### Environment Variables
+
+Create a .env file inside the backend folder and add:
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+---
+
+### Status
+
+🚧 This project is under active development and is intended for learning and showcasing real-world MERN stack architecture and admin-level access control.
