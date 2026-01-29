@@ -72,13 +72,14 @@ crm-project/
 cd backend
 npm install
 npm run dev
+```
 
 ### Frontend Setup
 ```bash
 cd frontend
 npm install
 npm start
-
+```
 ---
 
 ### Environment Variables
@@ -88,6 +89,7 @@ Create a .env file inside the backend folder and add:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+```
 
 ---
 
