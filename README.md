@@ -93,6 +93,17 @@ JWT_SECRET=your_jwt_secret
 
 ---
 
+## Initial Super Admin Setup
+
+Before running the application for the first time, execute the seed script to create the initial Super Admin account:
+
+```bash
+cd backend
+node seed.js
+```
+
+---
+
 ### Status
 
 🚧 This project is under active development and is intended for learning and showcasing real-world MERN stack architecture and admin-level access control.
